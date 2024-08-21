@@ -138,6 +138,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
+    'https://226pay-spa.vercel.app'
     'http://localhost:3000',
     'https://api.226pay.com',
     'https://www.api.226pay.com',
@@ -145,6 +146,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
+    'https://226pay-spa.vercel.app'
     'https://api.226pay.com',
     'https://www.api.226pay.com',
     'http://localhost:3000',
